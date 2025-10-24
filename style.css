@@ -17,6 +17,7 @@
     --muted: #d1d1d1;
     --accent: #b74b4b;
     --shadow: 0 0 25px var(--accent);
+    --card-shadow: 0 24px 50px #707070a7;
 }
 
 html {
@@ -285,40 +286,6 @@ span {
     line-height: 1.6;
 }
 
-/* Skills Section */
-.skills {
-    padding: 5rem 9% 5rem;
-    background-color: black;
-}
-
-.skills-container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.skills-box {
-    background-color: var(--card);
-    padding: 3rem;
-    border-radius: 2rem;
-    border: 0.2rem solid var(--accent);
-}
-
-.skills-box h3 {
-    font-size: 2.6rem;
-    margin-bottom: 3rem;
-    text-align: center;
-}
-
-.skill-item {
-    margin-bottom: 2.5rem;
-}
-
-.skill-item span {
-    font-size: 1.8rem;
-    display: block;
-    margin-bottom: 1rem;
-}
-
 .progress-bar {
     width: 100%;
     height: 1rem;
@@ -353,10 +320,69 @@ span {
     .services-box {
         margin: 0 2rem;
     }
-    
-    .skills-box {
-        margin: 0 2rem;
-    }
+}
+
+/* project Section */  
+.project {
+    padding: 5rem 9% 5rem;
+    background-color: var(--bg);
+    position: relative;
+    height: 96vh;
+}
+.project-container {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+    height: 64vh;
+    /* box-shadow: 0 30px 50px rgba(0, 0, 0, 0.5); */
+}
+
+.project-content {
+    width: 240px;
+    height: 320px;
+    border-radius: 20px;
+    /* overflow: hidden; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    box-shadow:  var(--card-shadow);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: inline-block;
+    transition: 0.5s ease;
+}
+
+.project-content:nth-child(1) {
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.project-content:nth-child(2) {
+    left: calc(50% + 200px);
+}
+.project-content:nth-child(3) {
+    left: calc(50% + 400px);
+}
+.project-content:nth-child(n+4) {
+    left: calc(50% + 600px);
+    opacity: 0;
+}
+
+.project-content .content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding: 1.5rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--muted);
+    transform: translate(0, 60%);
 }
 
 /* Education Section */
