@@ -46,3 +46,23 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
+// scolling project animation
+let nextProject = document.querySelector('.project .arrow .next');
+let prevProject = document.querySelector('.project .arrow .prev');
+
+nextProject.addEventListener('click', () => {    
+    var projects = document.querySelectorAll('.project-content');
+    document.querySelector('.project-box').appendChild(projects[0]);
+
+});
+
+prevProject.addEventListener('click', () => {
+    var projects = document.querySelectorAll('.project-content');
+    document.querySelector('.project-box').prepend(projects[projects.length - 1]);
+});
+
+setInterval(() => {
+    var projects = document.querySelectorAll('.project-content');
+    document.querySelector('.project-box').appendChild(projects[0]);
+}, 10000);
