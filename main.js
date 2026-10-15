@@ -18,7 +18,6 @@ const translations = {
     navigation: "Main navigation",
     navWork: "Projects",
     navAbout: "About",
-    navContact: "Let’s connect",
     language: "Language",
     openMenu: "Open menu",
     closeMenu: "Close menu",
@@ -27,7 +26,7 @@ const translations = {
     intro:
       "I’m curious about AI and enjoy experimenting with images, video, and new ways to create. This is where I share my projects and what I learn along the way.",
     viewWork: "View projects",
-    heroBottom: "Personal profile · Projects · Contact",
+    heroBottom: "Personal profile · Projects",
     scroll: "Scroll to explore",
     workEyebrow: "PROJECTS I’VE CONTRIBUTED TO",
     workTitle: "Part of my journey.",
@@ -49,10 +48,6 @@ const translations = {
       "I’m Hà Trọng Tài. I’m interested in the possibilities AI brings and enjoy trying things out to discover how it can help turn ideas into reality.",
     aboutText2:
       "I enjoy exploring image, video, and character creation with AI. Every experiment is a chance to learn, discover a new approach, and share the experience with others.",
-    contactEyebrow: "GET IN TOUCH",
-    contactTitle: "The next idea?\nLet’s make it happen.",
-    contactText:
-      "Exchange ideas, share workflows,\nor explore a new project together.",
     footer: "Creating with AI. Storytelling with a human perspective.",
     backTop: "Back to top",
     title: "Hà Trọng Tài — Exploring AI",
