@@ -49,7 +49,6 @@ const translations = {
       "I’m Hà Trọng Tài. I’m interested in the possibilities AI brings and enjoy trying things out to discover how it can help turn ideas into reality.",
     aboutText2:
       "I enjoy exploring image, video, and character creation with AI. Every experiment is a chance to learn, discover a new approach, and share the experience with others.",
-    github: "Visit my GitHub",
     contactEyebrow: "GET IN TOUCH",
     contactTitle: "The next idea?\nLet’s make it happen.",
     contactText:
