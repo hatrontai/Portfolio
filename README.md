@@ -1,7 +1,7 @@
 # Hà Trọng Tài — AI Video & Film Creator
 
 Portfolio cá nhân tĩnh, song ngữ Việt/Anh, viết bằng HTML, CSS và JavaScript thuần.
-Trang giới thiệu chủ portfolio trước, tiếp đến nền tảng và kinh nghiệm, rồi danh sách
+Trang giới thiệu chủ portfolio trước, tiếp đến nền tảng, rồi danh sách
 dự án. Mỗi sản phẩm là một mục dự án; thông điệp riêng nằm trong phần chi tiết dự án.
 
 ## Xem trên máy
