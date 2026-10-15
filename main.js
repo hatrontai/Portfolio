@@ -25,7 +25,7 @@ const translations = {
     location: "Ho Chi Minh City, Vietnam",
     hello: "HELLO, I’M",
     intro:
-      "I have a background in Computer Science and experience creating video and characters with AI. I enjoy building workflows, exploring visual storytelling, and sharing what I learn.",
+      "I have a background in Computer Science and experience working in Gen AI at Zalo, focusing on video and image generation. I enjoy building workflows, exploring visual storytelling, and sharing what I learn.",
     viewWork: "View projects",
     heroBottom: "Personal profile · Experience · Projects",
     scroll: "Scroll to explore",
@@ -44,6 +44,10 @@ const translations = {
     toolsLabel: "TOOLS USED",
     approachEyebrow: "EXPERIENCE & SKILLS",
     approachTitle: "What I work on.",
+    experienceLabel: "WORK EXPERIENCE",
+    zaloRole: "Gen AI · Video & image generation",
+    zaloDescription:
+      "Main responsibilities: generating videos and images with AI.",
     approachAside:
       "From characters to individual shots,\nand the emotion carried by sound.",
     skill1Title: "Consistent characters",
