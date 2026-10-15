@@ -4,8 +4,9 @@
 const translations = {
   vi: {},
   en: {
+    heroRole: "Exploring & creating with AI",
     viewProfile: "Get to know me",
-    portraitCaption: "Technical thinking. Creative spirit.",
+    portraitCaption: "Curiosity. Experimentation. Sharing.",
     aboutInterest: "AI · Video · Characters · Music",
     projectDetails: "Project details",
     projectMessageTitle: "The HUMAN² message",
@@ -24,7 +25,7 @@ const translations = {
     location: "Ho Chi Minh City, Vietnam",
     hello: "HELLO, I’M",
     intro:
-      "I have a background in Computer Science and experience generating videos and images with AI. I enjoy building workflows, exploring visual storytelling, and sharing what I learn.",
+      "I’m curious about AI and enjoy experimenting with images, video, and new ways to create. This is where I share my projects and what I learn along the way.",
     viewWork: "View projects",
     heroBottom: "Personal profile · Projects · Contact",
     scroll: "Scroll to explore",
@@ -43,24 +44,23 @@ const translations = {
     toolsLabel: "TOOLS USED",
     portraitAlt: "Portrait of Hà Trọng Tài",
     aboutEyebrow: "ABOUT ME",
-    aboutTitle: "Technical thinking.\nCreative spirit.",
+    aboutTitle: "Curious about AI.\nAlways keen to try.",
     aboutText1:
-      "I’m Hà Trọng Tài, with a background in Computer Science at the University of Information Technology (UIT). I’m interested in how AI can expand creative possibilities and turn ideas into reality.",
+      "I’m Hà Trọng Tài. I’m interested in the possibilities AI brings and enjoy trying things out to discover how it can help turn ideas into reality.",
     aboutText2:
-      "Through AI video and filmmaking, I explore the intersection of technology, characters, and storytelling. Each project is a chance to experiment, learn, and share my process with the community.",
-    education: "Computer Science · 2021–2025",
-    github: "Explore my technical side on GitHub",
+      "I enjoy exploring image, video, and character creation with AI. Every experiment is a chance to learn, discover a new approach, and share the experience with others.",
+    github: "Visit my GitHub",
     contactEyebrow: "GET IN TOUCH",
     contactTitle: "The next idea?\nLet’s make it happen.",
     contactText:
       "Exchange ideas, share workflows,\nor explore a new project together.",
     footer: "Creating with AI. Storytelling with a human perspective.",
     backTop: "Back to top",
-    title: "Hà Trọng Tài — AI Video & Film Creator",
+    title: "Hà Trọng Tài — Exploring AI",
     description:
-      "Hà Trọng Tài’s portfolio — a Computer Science background, experience in AI video and character generation, and creative workflows.",
+      "Hà Trọng Tài — an AI enthusiast exploring image and video creation, experimenting with new ideas, and sharing what I learn.",
     socialDescription:
-      "Get to know Hà Trọng Tài, my experience creating video with AI, and the projects I’ve contributed to.",
+      "Exploring AI, creative experiments, and projects Hà Trọng Tài has contributed to.",
   },
 };
 

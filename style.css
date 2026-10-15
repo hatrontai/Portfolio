@@ -454,28 +454,6 @@ p {
   margin-bottom: 18px;
   line-height: 2;
 }
-.education-note {
-  display: flex;
-  gap: 17px;
-  border-block: 1px solid var(--line);
-  padding-block: 21px;
-  margin-block: 27px;
-}
-.education-note > span {
-  color: var(--accent);
-  font-size: 22px;
-}
-.education-note strong {
-  display: block;
-  font-size: 11px;
-  font-weight: 500;
-}
-.education-note div > span {
-  display: block;
-  font-size: 10px;
-  color: var(--muted);
-  margin-top: 4px;
-}
 .contact {
   border-top: 1px solid var(--line);
   padding-bottom: 55px;
@@ -951,9 +929,6 @@ body:not(.js-enabled) .language-switch {
   margin-top: 25px;
   font-size: 11px;
   color: var(--accent);
-}
-.about-copy .education-note {
-  margin-top: 25px;
 }
 .work {
   border-top: 1px solid var(--line);
