@@ -14,7 +14,7 @@ Tại thư mục repo, chạy `python3 -m http.server 8765`, sau đó mở
 - `index.html`: nội dung tiếng Việt mặc định, cấu trúc trang và liên kết cá nhân.
 - `main.js`: bộ bản dịch `translations`; tiếng Việt được đọc từ HTML, tiếng Anh nằm trong `translations.en`. Mỗi nội dung dịch dùng một khóa `data-i18n`; nhãn và ảnh dùng `data-i18n-aria`, `data-i18n-alt`.
 - `style.css`: màu sắc, typography, responsive và hiệu ứng; hỗ trợ `prefers-reduced-motion`.
-- `assets/image/featured-film.jpg`: thumbnail chính thức của video được chủ portfolio cung cấp; `profile-image.jpg`: ảnh chân dung hiện có.
+- `assets/image/featured-film.jpg`: thumbnail chính thức của video được chủ portfolio cung cấp; `profile.png`: ảnh chân dung hiện có.
 
 Khi đổi video, cập nhật URL YouTube, ID trình nhúng trong `main.js`, thumbnail,
 tiêu đề, mô tả và metadata Open Graph. Giữ phần đóng góp đúng với vai trò thực tế.
