@@ -42,24 +42,12 @@ const translations = {
     roleLabel: "MY CONTRIBUTION",
     roleValue: "Contributed to part of the video and character generation",
     toolsLabel: "TOOLS USED",
-    approachEyebrow: "EXPERIENCE & SKILLS",
+    approachEyebrow: "EXPERIENCE",
     approachTitle: "What I work on.",
     experienceLabel: "WORK EXPERIENCE",
     zaloRole: "Gen AI · Video & image generation",
     zaloDescription:
       "Main responsibilities: generating videos and images with AI.",
-    approachAside:
-      "From characters to individual shots,\nand the emotion carried by sound.",
-    skill1Title: "Consistent characters",
-    skill1Text:
-      "Maintaining character identity across frames, so each shot belongs to the same world and the same story.",
-    skill2Title: "Shot generation workflow",
-    skill2Text:
-      "Building a shot generation workflow to organize video creation, experiment, and connect ideas into moving images.",
-    skill3Title: "Sound & music",
-    skill3Text:
-      "Bringing visuals, sound, and music together to find a rhythm and emotional tone that serve the story.",
-    toolStrip: "TOOLS IN MY CREATIVE PROCESS",
     portraitAlt: "Portrait of Hà Trọng Tài",
     aboutEyebrow: "ABOUT ME",
     aboutTitle: "Technical thinking.\nCreative spirit.",

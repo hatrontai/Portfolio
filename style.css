@@ -442,7 +442,6 @@ p {
   grid-template-columns: 1fr 1.2fr;
   gap: 32px;
   padding: 28px;
-  margin-bottom: 32px;
   border: 1px solid var(--line);
   border-left: 2px solid var(--accent);
   background: var(--surface);
@@ -468,63 +467,7 @@ p {
     padding: 22px;
   }
 }
-.approach-row {
-  display: grid;
-  grid-template-columns: 60px 1fr 1fr 45px;
-  align-items: center;
-  gap: 25px;
-  border-top: 1px solid var(--line);
-  padding-block: 32px;
-}
-.approach-index {
-  font-size: 11px;
-  color: var(--accent);
-  align-self: start;
-  padding-top: 3px;
-}
-.approach-row h3 {
-  font-size: 25px;
-  font-weight: 500;
-  letter-spacing: -0.04em;
-  margin-top: 9px;
-}
-.approach-row .small-label {
-  font-size: 8px;
-  letter-spacing: 0.13em;
-}
-.approach-row > p {
-  font-size: 12px;
-  line-height: 1.9;
-}
-.row-symbol {
-  font-size: 40px;
-  color: #9b988c;
-  text-align: right;
-  font-family: sans-serif;
-}
-.tool-strip {
-  border-top: 1px solid var(--line);
-  padding-top: 26px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 24px;
-}
-.tool-strip > span {
-  font-size: 9px;
-  letter-spacing: 0.1em;
-  color: var(--muted);
-}
-.tool-strip > div {
-  display: flex;
-  gap: 22px;
-  align-items: center;
-  font-size: 18px;
-}
-.tool-plus {
-  font-size: 13px;
-  color: var(--accent);
-}
+
 .about {
   display: grid;
   grid-template-columns: 0.8fr 1fr;
@@ -678,13 +621,6 @@ p {
   }
   .hero-description {
     font-size: 12px;
-  }
-  .approach-row {
-    grid-template-columns: 35px 1fr 1fr 30px;
-    gap: 18px;
-  }
-  .approach-row h3 {
-    font-size: 22px;
   }
 
   .about {
@@ -868,38 +804,6 @@ p {
     font-size: 9px;
   }
 
-  .approach-row {
-    grid-template-columns: 27px 1fr 28px;
-    gap: 13px;
-    padding-block: 26px;
-  }
-  .approach-row > p {
-    grid-column: 2/3;
-    font-size: 12px;
-  }
-  .approach-row .row-symbol {
-    grid-column: 3;
-    grid-row: 1/3;
-    align-self: center;
-    font-size: 30px;
-  }
-  .approach-row h3 {
-    font-size: 23px;
-  }
-  .approach-index {
-    font-size: 10px;
-  }
-  .tool-strip {
-    align-items: start;
-    flex-direction: column;
-    gap: 16px;
-  }
-  .tool-strip > span {
-    font-size: 8px;
-  }
-  .tool-strip > div {
-    font-size: 17px;
-  }
   .about {
     grid-template-columns: 1fr;
     gap: 40px;
