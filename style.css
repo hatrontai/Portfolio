@@ -896,6 +896,10 @@ body:not(.js-enabled) .language-switch {
   font-size: 11px;
   line-height: 1.9;
 }
+.project-details p + p,
+.project-details p + h4 {
+  margin-top: 16px;
+}
 @media (max-width: 1050px) {
   .hero-grid {
     gap: 7%;

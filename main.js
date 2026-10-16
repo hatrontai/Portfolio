@@ -9,9 +9,14 @@ const translations = {
     portraitCaption: "Curiosity. Experimentation. Sharing.",
     aboutInterest: "AI · Video · Characters · Music",
     projectDetails: "Project details",
+    projectStoryTitle: "Story & metaphors",
+    projectMetaphors:
+      "Slimes represent AI agents, while monsters represent deadlines. The rush to meet deadlines unfolds as an adventure in defeating monsters alongside Slime companions.",
+    projectJourney:
+      "The character gradually learns to upgrade their Slime. From a companion that helps with everyday tasks, the Slime becomes a collaborator in bringing long-held ideas to life.",
     projectMessageTitle: "The HUMAN² message",
     projectMessage:
-      "At VNG, AI has become a companion in everyday work. HUMAN² is about people actively collaborating with AI to realize ideas, amplify their potential, and inspire others to begin.",
+      "HUMAN² begins when people actively collaborate with AI, going beyond meeting deadlines to turn unfinished ideas into tangible value. AI amplifies human potential; one person who dares to begin can inspire others to do the same.",
 
     skip: "Skip to main content",
     homeLabel: "Hà Trọng Tài — Home",
@@ -36,7 +41,7 @@ const translations = {
     watchFilm: "Watch the film",
     characterTag: "CHARACTERS",
     projectDescription:
-      "I contributed to part of the video and character generation using GPT and GG Omni. The project involved practicing character consistency, shot generation workflows, sound, and music.",
+      "A story in which Slimes represent AI agents: the character learns to upgrade their companion, progressing from conquering deadlines to bringing long-held ideas to life.",
     youtube: "Watch on YouTube",
     roleLabel: "MY CONTRIBUTION",
     roleValue: "Contributed to part of the video and character generation",
